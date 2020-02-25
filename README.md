@@ -11,18 +11,18 @@ This application needs Java 8 or higher to work on a developer machine. Please i
 
 1. In the project folder, run :
 
-    ### ./mvnw clean package
+    #### ./mvnw clean package
  
  This will run the unit tests and on success, build a demo-0.0.1-SNAPSHOT.jar in the target folder.
  
  2. Run the jar from the Root folder:
  
-  ### java -jar /target/demo-0.0.1-SNAPSHOT.jar
+  #### java -jar /target/demo-0.0.1-SNAPSHOT.jar
    
    or from the target folder:
    
- ###java -jar demo-0.0.1-SNAPSHOT.jar
+ #### java -jar demo-0.0.1-SNAPSHOT.jar
    
    3. You can access the API from dev machine:
    
-  ### http://localhost:8083/swagger-ui.html
+  ####  http://localhost:8083/swagger-ui.html
